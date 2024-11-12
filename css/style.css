@@ -1,0 +1,32 @@
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.tout{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  height: 100vh;
+  width: 100vw;
+  font-size: 18px;
+  overflow: hidden;
+  display: flex;
+  overflow: scroll;
+}
+
+.texte{
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+h1{
+  font-weight: bold;
+}
+
+img{
+  width: 100%;
+}
